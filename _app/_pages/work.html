@@ -2,30 +2,16 @@
 layout: page
 title: Work
 permalink: /work/
-desc: 作品・ワークス・TBC
+desc: 作品・Portfolio・작품
 ---
 
-<h2>Personal Projects</h2>
-{% for post in site.tags.project %}
+<h2>Web</h2>
+{% for post in site.tags.web %}
   {% include page-item.html %}
 {% endfor %}
 
-<h2>WordPress Themes / Plugins</h2>
-{% for post in site.tags.wordpress %}
+<h2>Media</h2>
+{% for post in site.tags.media %}
   {% include page-item.html %}
 {% endfor %}
 
-<h2>Commercial Work</h2>
-{% for post in site.tags.commercial %}
-  {% include page-item.html %}
-{% endfor %}
-
-<h2>Translation</h2>
-{% for post in site.tags.i18n %}
-  {% include page-item.html %}
-{% endfor %}
-
-<h2>Paintings / Sketches</h2>
-{% for post in site.tags.drawing %}
-  {% include page-item.html %}
-{% endfor %}

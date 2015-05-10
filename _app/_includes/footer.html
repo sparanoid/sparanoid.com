@@ -3,14 +3,12 @@
 {% else %}
   <footer class=footer>
     <ul>
-      <li><a href="{{ site.base }}/">{{ site.name }}</a></li>
-      {% if site.credits %}
-        <li><a href="http://sparanoid.com/lab/amsf/" title="Almace Scaffolding">AMSF</a></li>
-      {% endif %}
-      {% if site.subscription %}
-        <li><a href="{{ '/email-signup' | prepend: site.base }}/">Email</a></li>
-      {% endif %}
-      <li><a href="{{ amsf_feed_url }}" title="Feed - Atom (The Atom Syndication Format)">Atom</a></li>
+      <li><a href="{{ site.base }}/">Home</a></li>
+      <li><a href="{{ site.base }}/contact/">Contact</a></li>
+      <li><a href="{{ site.base }}/work/">Portfolio</a></li>
+      <li><a href="{{ site.base }}/#social">Social</a></li>
+      <li><a href="{{ site.base }}/blog/">Blog</a></li>
+      <li><a href="{{ amsf_feed_url }}" title="Feed - Atom (The Atom Syndication Format)">Feed</a></li>
     </ul>
   </footer>
 {% endif %}

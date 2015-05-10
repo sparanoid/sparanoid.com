@@ -258,6 +258,10 @@ module.exports = (grunt) ->
       s3:
         command: "s3cmd sync -rP --guess-mime-type --delete-removed --no-preserve --cf-invalidate --add-header=Cache-Control:max-age=31536000 --exclude '.DS_Store' <%= config.cfg.static_files %> <%= config.cfg.s3_bucket %>"
 
+      # Deploy to s3 and Invalidate CloudFront via s3_website
+      deploy:
+        command: "s3_website push"
+
     concurrent:
       options:
         logConcurrentOutput: true
@@ -393,7 +397,6 @@ module.exports = (grunt) ->
         "autoprefixer:dist"
         "csscomb"
         "jekyll:dist"
-        "usebanner"
         "reset"
       ]
     else
@@ -408,7 +411,6 @@ module.exports = (grunt) ->
         "jekyll:dist"
         "concurrent:dist"
         "smoosher"
-        "usebanner"
         "clean:postDist"
         "reset"
       ]
@@ -425,3 +427,9 @@ module.exports = (grunt) ->
   grunt.registerTask "default", "Default task aka. build task", [
     "build"
   ]
+
+  grunt.registerTask "deploy", "Build site + deploy to s3 & cf", [
+    "build"
+    "shell:deploy"
+  ]
+

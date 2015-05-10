@@ -9,7 +9,7 @@
 
 source:         _app
 destination:    _site
-timezone:       Asia/Hong_Kong
+timezone:       Asia/Singapore
 permalink:      /:categories/:title/
 markdown:       redcarpet
 highlighter:    pygments
@@ -46,10 +46,10 @@ redcarpet:
 #
 
 # Site name
-name:           Sparanoid
+name:           JarylWANG.com
 
 # Site description, will appear in the document meta and Atom feed subtitle
-description:    I make things that don’t suck.
+description:    Making stuff since 2006.
 
 # Base URL, this is useful when I need to build site in a sub-directory (like GitHub Pages for Projects), it provides a specific URL prefix, for example, if the production site URL is http://sparanoid.com/lab/version/, set `base` to `/lab/version/24`, without trailing slash.
 # Default:      null
@@ -64,23 +64,23 @@ assets:         /assets
 feed:           /feed.xml
 
 # Used in atom feed, sitemap, Twitter Cards, and etc. I should use absolute full URLs for these fields
-url:            http://sparanoid.com
+url:            https://www.jarylwang.com
 
 # Media assets URL used in posts, without trailing slash. ie. `<img href="{{ site.file }}/image.png">`. In the most cases this URL should be powered by a CDN provider
-file:           //d349cztnlupsuf.cloudfront.net
+file:           //jwsite-a.akamaihd.net
 
 # Download files URL used in posts, ie. href="{{ site.download }}/package.zip", this should also be a CDN link just like `site.url`. There's no differences in `site.url` and `site.download`, I just use one CDN for post images and another for large download files. That's it. Remove or ignore this if you don't need it
-download:       http://dl.sparanoid.com
+download:       http://dl.jarylwang.com
 
 # Site Twitter account handle
-twitter:        sparanoid
+twitter:        jarylwang
 
 # Site donate link, used in several posts
-donate:         https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=LTXZ835Y6T95S
+donate:         https://www.paypal.com/
 
 # Force UTF-8 encoding, enable this will simply add <meta charset=utf-8> to the head of your pages
 # Default:      false
-force_utf_8:    false
+force_utf_8:    true
 
 # Enable this settings to make your feed Daring Fireball-like link blog
 # (This basically change your <link> value to external link you defined in your posts)
@@ -93,7 +93,7 @@ rss_excerpt:    false
 
 # Hide footer from your homepage, example: sparanoid.com
 # Default:      false
-clean_homepage: true
+clean_homepage: false
 
 # Style post link color (if defined) for article list
 # Default:      false
@@ -101,7 +101,7 @@ colorful_list:  true
 
 # Show email subscription link in footer
 # Default:      false
-subscription:   true
+subscription:   false
 
 # Show generator credits
 # Default:      true
