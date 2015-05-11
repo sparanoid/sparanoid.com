@@ -1,9 +1,20 @@
 ---
 layout: page
-title: Error‽
+title: Oops‽
 permalink: /error/
-desc: 錯誤・エラー・Oops
+desc: 错误・Error・오류
 category: home
 ---
 
-The specified key does not exist.
+
+<article>
+
+
+
+      <center>
+
+      <h1>The page you were looking for doesn't exist.</h1>
+
+    
+
+</article>

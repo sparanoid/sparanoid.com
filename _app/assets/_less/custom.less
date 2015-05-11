@@ -64,28 +64,30 @@
 
 // Alternative title size
 // By default all heading levels have the same font size, but many people may not like this, so here's an alternative font size stack:
-// .content {
-//   h2 { font-size: 108%; opacity: .6; }
-//   h3 { font-size: 96%;  opacity: .5; }
-//   h4 { font-size: 84%;  opacity: .4; }
-//   h5 { font-size: 72%;  opacity: .3; }
-//   h6 { font-size: 60%;  opacity: .2; }
-// }
+.content {
+  h2 { font-size: 108%; opacity: .6; }
+  h3 { font-size: 96%;  opacity: .5; }
+  h4 { font-size: 84%;  opacity: .4; }
+  h5 { font-size: 72%;  opacity: .3; }
+  h6 { font-size: 60%;  opacity: .2; }
+}
 
-// Custom styles for sparanoid.com
-body {
+nav {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
   text-align: center;
 }
 
 .logo {
-  width: 50%;
+  width: 92%;
   margin-left: auto;
   margin-right: auto;
-}
-
-.navigation {
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .content {
@@ -125,10 +127,11 @@ body {
     }
   }
 
+
   // Limit post content width
   .page-content,
   .post-content {
-    max-width: 85%;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
 
@@ -141,12 +144,8 @@ body {
     table {
       margin-left: auto;
       margin-right: auto;
-    }
-
-    // Override user agent stylesheet
-    input {
-      text-align: center;
-    }
+  }
+}
 
     // Elements cannot be center aligned
     pre,
@@ -192,8 +191,44 @@ body {
     text-align: start;
   }
 
-  // Apply left align to specific posts or pages
-  .nocenter {
-    text-align: start;
-  }
+.content form textarea {
+  display: block;
+  width: 100%;
+  height: 9em;
+  margin: 0 0 1vmin;
+  padding: 1vmin 0;
+  -webkit-transition: padding .2s ease;
+  transition: padding .2s ease;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  outline: 0;
+}
+
+.content form textarea:focus {
+padding: 1vmin;
+border-color: #000;
+background: rgba(0,0,0,.02);
+}
+
+.content form input#submit {
+color: #00aad8;
+background: #bcebf7;
+}
+
+//Give a left margin to input placeholders on contact page
+
+::-webkit-input-placeholder {
+    padding-left: 9px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    padding-left: 9px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    padding-left: 9px;
+}
+
+:-ms-input-placeholder {  
+    padding-left: 9px; 
 }

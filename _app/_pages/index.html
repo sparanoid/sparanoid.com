@@ -1,28 +1,62 @@
 ---
 layout: default
-title: Sparanoid
+title: Web, Technology, and Food
 permalink: /
 ---
 
-<!-- Article wrapper, limit width -->
-<article>
-
-  <!-- Post title -->
   <header>
-    <h1>
-      Tunghsiao Liu
-    </h1>
+    <h1>Hello!</h1>
+    <small>关于・Introduction・소개</small>
+  </header>
 
-    <small class=latest-post>
-      {% for post in site.categories.work limit:1 %}
-        Recently made <a href="{{ post.url | prepend: site.base }}" class=latest>{{ post.title }}</a>
+<div class=page-content>  
+<h2>About Me</h2>
+
+<p>My name is Jaryl, and I am an avid tech enthusiast. I am currently located in Singapore. I am always striving to deliver the <u><em>latest & greatest</em></u>. I would love to <a href="../contact/">talk about</a> your project or ideas.
+
+
+
+{% if site.data.availability.free %}
+  <pre style="overflow: auto; word-wrap: normal; white-space: pre; color: #00a24c;">Currently available for hire.</pre>
+  {% else %}
+  <pre  style="overflow: auto; word-wrap: normal; white-space: pre; color: #c50000;">Not accepting freelance work.</pre>
+{% endif %}
+
+
+
+<h2>Recent Projects</h2>
+<article>
+<small class=latest-post>
+      {% for post in site.categories.work limit:3 %}
+      	<ul>  
+        	<li><a href="{{ post.url | prepend: site.base }}" class=latest>{{ post.title }}</a></li>
+      	</ul>
       {% endfor %}
     </small>
+    </article>
 
-    {% if site.data.availability.free %}
-      <p class="status available"><a href="mailto:{{ site.data.authors.default.email }}">Currently available for freelance</a></p>
-    {% else %}
-      <p class="status unavailable"><a href="mailto:{{ site.data.authors.default.email }}" title="You think your project is great? try to reach me.">Not accepting freelance work now</a></p>
-    {% endif %}
-  </header>
-</article>
+<h2 id="social">Social</h2>
+<p>
+<a href="mailto:jaryl@jarylwang.com"><abbr title="jaryl@jarylwang.com">E-mail</abbr></a> - 
+<a href="http://www.kakao.com/talk/"><abbr title="ID: jarylwang">KakaoTalk</abbr></a> -
+<a href="https://www.facebook.com/jarylwang/"><abbr title="Wondering why there were no photos?">Facebook</abbr></a> - 
+<a href="https://instagram.com/jarylwang/"><abbr title="Mostly food photographs">Instagram</abbr></a> - 
+<a href="https://twitter.com/jarylwang/"><abbr title="Random ramblings">Twitter</abbr></a>
+</p>
+
+<h2>The Good Stuff</h2>
+<p>
+<a href="https://github.com/sparanoid/almace-scaffolding"><abbr title="Almace Scaffolding">AMSF</abbr></a> <a href="http://github.com/jarylwang/www.jarylwang.com">(Source)</a> -
+<a href="https://github.com/">GitHub</a> -
+<a href="http://aws.amazon.com/"><abbr title="Cloudfront for secure site delivery & S3 for storage">Amazon</abbr></a> -
+<a href="http://www.akamai.com/"><abbr title="Object delivery for static assets">Akamai</abbr></a> -
+<a href="http://www.sublimetext.com/">Sublime Text</a> -
+<a href="http://www.adobe.com/sea/creativecloud.html/"><abbr title="Photoshop & Lightroom">Adobe CC</abbr></a>
+</p>
+
+
+<p>
+Unless otherwise stated, all content are &copy; Jaryl Wang, all rights reserved. The views expressed on this site are mine alone and not those of my employers and clients, past and present.
+</p>
+
+</div>

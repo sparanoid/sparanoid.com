@@ -7,10 +7,10 @@
 # {{ author.web }}: used in atom feed
 # {{ author.twitter }}: used by Twitter Cards
 default:
-  name:         Tunghsiao Liu
-  email:        t@sparanoid.com
-  web:          http://sparanoid.com/
-  twitter:      tunghsiao
+  name:         Jaryl Wang
+  email:        jaryl@jarylwang.com
+  web:          https://www.jarylwang.com/
+  twitter:      jarylwang
 
 tester:
   name:         Tester
