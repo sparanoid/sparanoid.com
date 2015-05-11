@@ -13,7 +13,7 @@ timezone:       Asia/Singapore
 permalink:      /:categories/:title/
 markdown:       redcarpet
 highlighter:    pygments
-include:        ["_pages"]
+include:        ["_pages", "_headers", "_redirects"]
 
 #
 # Jekyll serve settings
