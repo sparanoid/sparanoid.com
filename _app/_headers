@@ -28,3 +28,15 @@
 /feed.xml
 	
 	Cache-Control: public, max-age=21600
+	
+/feed-excerpt.xml
+	
+	Cache-Control: public, max-age=21600
+	
+/sitemap
+
+	Cache-Control: public, max-age=21600
+
+/feed
+	
+	Cache-Control: public, max-age=21600
