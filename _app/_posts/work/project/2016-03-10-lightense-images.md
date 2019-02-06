@@ -44,30 +44,40 @@ Lightense(elements, {
   padding: 40,
   offset: 40,
   keyboard: true,
-  cubicBezier: 'cubic-bezier(.2, 0, .1, 1)',
-  background: 'rgba(255, 255, 255, .98)',
-  zIndex: 2147483647
+  cubicBezier: "cubic-bezier(.2, 0, .1, 1)",
+  background: "rgba(255, 255, 255, .98)",
+  zIndex: 2147483647,
+  beforeShow: function(config) {},
+  afterShow: function(config) {},
+  beforeHide: function(config) {},
+  afterHide: function(config) {}
 });
 ```
 
 Inline data configurations:
 
 ```html
-<img src="image.png"
+<img
+  src="image.png"
   data-lightense-padding="40"
   data-lightense-cubic-bezier="cubic-bezier(.2, 0, .1, 1)"
   data-lightense-background="rgba(255, 255, 255, .98)"
-  data-lightense-z-index="2147483647">
+  data-lightense-z-index="2147483647"
+/>
 ```
 
 ## Setup
 
 ```html
-<img src="photo.jpg">
+<img src="photo.jpg" />
 <script>
-  window.addEventListener('load', function () {
-    Lightense('img');
-  }, false);
+  window.addEventListener(
+    "load",
+    function() {
+      Lightense("img");
+    },
+    false
+  );
 </script>
 ```
 
@@ -76,7 +86,7 @@ Inline data configurations:
 ## Custom Background Color
 
 ```html
-<img src="screenshot.png" data-lightense-background="rgba(0, 0, 0, .96)">
+<img src="screenshot.png" data-lightense-background="rgba(0, 0, 0, .96)" />
 ```
 
 <p><img src="{{ site.file }}/railgun-logo.png" data-background="rgba(23, 29, 54, .8)"></p>
@@ -84,7 +94,7 @@ Inline data configurations:
 ## Custom Padding
 
 ```html
-<img src="screenshot.png" data-lightense-padding="0">
+<img src="screenshot.png" data-lightense-padding="0" />
 ```
 
 <p><img src="{{ site.file }}/delicious.com-logo.png" data-padding="0"></p>
@@ -92,15 +102,72 @@ Inline data configurations:
 ## Disable Lightense for Specific Elements
 
 ```html
-<img src="photo.jpg" class="no-lightense">
+<img src="photo.jpg" class="no-lightense" />
 <script>
-  window.addEventListener('load', function () {
-    Lightense('img:not(.no-lightense)');
-  }, false);
+  window.addEventListener(
+    "load",
+    function() {
+      Lightense("img:not(.no-lightense)");
+    },
+    false
+  );
 </script>
 ```
 
 <p><img src="{{ site.file }}/imouto-logo-large.png" class="no-lightense"></p>
+
+## Custom Event Hooks
+
+```html
+<img
+  src="{{ site.file }}/girls_dead_monster_logo.png"
+  before-show-message="Showing!"
+  after-show-message="Showed!"
+  before-hide-message="Hiding!"
+  after-hide-message="Hidden!"
+/>
+<script>
+  window.addEventListener('load', function() {
+    Lightense('img', {
+      beforeShow(config) {
+        var beforeShowAttr = config.target.getAttribute(
+          "before-show-message"
+        );
+        if (beforeShowAttr) {
+          console.log(beforeShowAttr);
+        }
+      },
+      afterShow(config) {
+        var afterShowAttr = config.target.getAttribute("after-show-message");
+        if (afterShowAttr) {
+          console.log(afterShowAttr);
+        }
+      },
+      beforeHide(config) {
+        var beforeHideMessage = config.target.getAttribute(
+          "before-hide-message"
+        );
+        if (beforeHideMessage) {
+          console.log(beforeHideMessage);
+        }
+      },
+      afterHide(config) {
+        var afterHideMessage = config.target.getAttribute(
+          "after-hide-message"
+        );
+        if (afterHideMessage) {
+          console.log(afterHideMessage);
+        }
+      });
+  }, false);
+</script>
+```
+
+<p><img src="{{ site.file }}/girls_dead_monster_logo.png"
+  before-show-message="Showing!"
+  after-show-message="Showed!"
+  before-hide-message="Hiding!"
+  after-hide-message="Hidden!"></p>
 
 ## Download
 
