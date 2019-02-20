@@ -102,6 +102,40 @@ Inline data configurations:
 
 <p><img src="{{ site.file }}/imouto-logo-large.png" class="no-lightense"></p>
 
+## Custom Event Hooks
+
+```html
+<img
+  src="{{ site.file }}/girls_dead_monster_logo.png"
+  before-show-alert="Showing!"
+  after-show-alert="Showed!"
+  before-hide-alert="Hiding!"
+  after-hide-alert="Hidden!"
+/>
+<script>
+  window.addEventListener("load", function() {
+    Lightense("img:not(.no-lightense),.lightense", {
+      beforeShow(config) {
+        var beforeShowAttr = config.target.getAttribute("before-show-alert");
+        beforeShowAttr && alert(beforeShowAttr);
+      },
+      afterShow(config) {
+        var afterShowAttr = config.target.getAttribute("after-show-alert");
+        afterShowAttr && alert(afterShowAttr);
+      },
+      beforeHide(config) {
+        var beforeHideMessage = config.target.getAttribute("before-hide-alert");
+        beforeHideMessage && alert(beforeHideMessage);
+      },
+      afterHide(config) {
+        var afterHideMessage = config.target.getAttribute("after-hide-alert");
+        afterHideMessage && alert(afterHideMessage);
+      }
+    });
+  }, false);
+</script>
+```
+
 ## Download
 
 <div class="largetype">
