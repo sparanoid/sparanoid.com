@@ -5,13 +5,6 @@ category: work
 tag: project
 head: |
   <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/pjdeblccplohlgedbefopohaedodcgci">
-foot: |
-  <script>
-  +function update_install_button() {
-    var install_button = document.getElementById('install-button');
-    install_button.removeAttribute(chrome.app.isInstalled ? "onclick" : "disabled");
-  }();
-  </script>
 ---
 
 > (Yet Another) iTunes Artwork Grabber
@@ -44,7 +37,7 @@ Try this fancy [video demo](https://www.youtube.com/watch?v=8NVyzKb7VIY).
 ## Downloads
 
 <div class="largetype">
-  <div><a href="#!" onclick="chrome.webstore.install()" id="install-button" disabled>Add to Chrome</a></div>
+  <div><a href="https://chrome.google.com/webstore/detail/pjdeblccplohlgedbefopohaedodcgci">Add to Chrome</a></div>
   <div><a href="http://greasyfork.org/en/scripts/8947-itunes-artwork-grabber-by-tunghsiao-liu">Download via Greasy Fork</a></div>
   <div><a href="http://openuserjs.org/scripts/sparanoid/iTunes_Artwork_Grabber_by_Tunghsiao_Liu">Download via OpenUserJS</a></div>
   <div><a href="https://github.com/sparanoid/itunes-artwork-grabber">View source at GitHub</a></div>
