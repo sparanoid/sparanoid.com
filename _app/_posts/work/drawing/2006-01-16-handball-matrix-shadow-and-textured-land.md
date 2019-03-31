@@ -4,9 +4,17 @@ title: Handball Matrix <span class="of-case">(</span>Shadow and Textured Land<sp
 category: work
 tag: drawing
 plugin: lightense
-scheme-text: "#edbe00"
-scheme-link: "#fff"
-scheme-bg: "#050505"
+css: |
+  :root {
+    --text-color-h: 45;
+    --text-color-s: 100%;
+    --text-color-l: 60%;
+    --link-color-h: 45;
+    --link-color-l: 100%;
+    --bg-color-h: 45;
+    --bg-color-s: 0%;
+    --bg-color-l: 0%;
+  }
 ---
 
 ArtRage is fun.
