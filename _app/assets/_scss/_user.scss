@@ -24,3 +24,17 @@
   --fontstack-sans-serif: "Helvetica Neue", "Hiragino Sans GB", sans-serif;
   --fontstack-serif: Georgia, "Hiragino Mincho ProN", serif;
 }
+
+:root {
+  --link-color-h: 285;
+  --link-color-s: 84%;
+  --link-color-l: 45%;
+
+  --text-color-h: var(--link-color-h);
+  --bg-color-h: var(--link-color-h);
+
+  @media (prefers-color-scheme: dark) {
+    // Code should be lighter in dark mode
+    // --code-color-l: calc(var(--link-color-l) * 1.3);
+  }
+}
