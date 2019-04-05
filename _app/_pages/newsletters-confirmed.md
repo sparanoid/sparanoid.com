@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Confirmed - Newsletters
+title: Newsletters Confirmed
 permalink: /newsletters/confirmed/
 desc: You’ve confirmed your subscription
 hidden: true

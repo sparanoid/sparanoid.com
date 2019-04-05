@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Unsubscribed - Newsletters
+title: Newsletters Unsubscribed
 permalink: /newsletters/unsubscribed/
 desc: You’ve been removed from this list
 hidden: true

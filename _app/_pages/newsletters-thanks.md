@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Almost finished… - Newsletters
+title: Almost finished…
 permalink: /newsletters/thanks/
 desc: You’ve subscribed to this list
 hidden: true
