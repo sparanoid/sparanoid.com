@@ -8,7 +8,7 @@ thumbnail: thumb/quotmarks-replacer.png
 heading-img: svg/quotmarks-replacer.svg
 heading-img-local: true
 heading-img-width: 440
-link: http://wordpress.org/plugins/quotmarks-replacer/
+link: https://wordpress.org/plugins/quotmarks-replacer/
 scheme-text: "#000"
 scheme-link: "#36bd6d"
 scheme-hover: "#2afd80"
@@ -25,7 +25,7 @@ scheme-bg-light: true
   </footer>
 </blockquote>
 
-<blockquote cite="http://wordpress.org/">
+<blockquote cite="https://wordpress.org/">
   <p>Shut up, Matt.</p>
   <footer>
     <cite>WordPress</cite>
@@ -43,6 +43,6 @@ scheme-bg-light: true
   </footer>
 </blockquote>
 
-<p class="download"><a href="http://wordpress.org/extend/plugins/quotmarks-replacer/">Download</a> it at WordPress.org</p>
+<p class="download"><a href="https://wordpress.org/extend/plugins/quotmarks-replacer/">Download</a> it at WordPress.org</p>
 
 <p class="store">Love this plugin? please consider <a href="{{ '/donate/' | relative_url }}">buying me a cup of coffee.</a></p>

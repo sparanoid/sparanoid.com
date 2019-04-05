@@ -8,7 +8,7 @@ thumbnail: thumb/space-lover.png
 heading-img: svg/space-lover.svg
 heading-img-local: true
 heading-img-width: 300
-link: http://wordpress.org/plugins/corner-bracket-lover/
+link: https://wordpress.org/plugins/corner-bracket-lover/
 scheme-text: "#7d4f46"
 scheme-link: "#ff4525"
 scheme-hover: "#ff9d79"
@@ -66,4 +66,4 @@ No options, no additional database inserts, no stupid banners and shitty ads, in
 
 If you love this plugin, please consider [buying me a cup of coffee]({{ '/donate/' | relative_url }}).
 
-[Download](http://wordpress.org/plugins/space-lover/){: .download} it at WordPress.org
+[Download](https://wordpress.org/plugins/space-lover/){: .download} it at WordPress.org

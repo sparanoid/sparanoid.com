@@ -8,7 +8,7 @@ thumbnail: thumb/relative-url.png
 heading-img: svg/relative-url.svg
 heading-img-local: true
 heading-img-width: 400
-link: http://wordpress.org/plugins/relative-url/
+link: https://wordpress.org/plugins/relative-url/
 scheme-text: "#00fff0"
 scheme-link: "#ff3f00"
 scheme-hover: "#fffd4a"
@@ -56,4 +56,4 @@ Then after activating this plugin, you can simply access your local instance usi
 
 If you love this plugin, please consider [buying me a cup of coffee]({{ '/donate/' | relative_url }}).
 
-[Download](http://wordpress.org/extend/plugins/relative-url/){: .download} it at WordPress.org
+[Download](https://wordpress.org/extend/plugins/relative-url/){: .download} it at WordPress.org
