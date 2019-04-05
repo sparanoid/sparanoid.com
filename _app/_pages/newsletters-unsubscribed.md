@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Unsubscribed
-permalink: /email/unsubscribed/
+title: Unsubscribed - Newsletters
+permalink: /newsletters/unsubscribed/
 desc: You’ve been removed from this list
 hidden: true
 ---

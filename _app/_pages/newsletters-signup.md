@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Sign up for Emails
-permalink: /email-signup/
-desc: 電郵訂閱・ニュースレター・Newsletter
+title: Newsletters
+permalink: /newsletters/
+desc: 電郵訂閱・ニュースレター・Newsletters
 ---
 
 Sign up for the newsletter. You will get email updates when new posts are published.
