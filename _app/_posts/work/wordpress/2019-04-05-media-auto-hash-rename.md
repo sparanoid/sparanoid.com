@@ -4,7 +4,7 @@ title: Media Auto Hash Rename
 category: work
 tag: wordpress
 excerpt: A WordPress plugin that renames media filename during upload with unique hash.
-thumbnail: thumb/kai-series-thumb.png
+thumbnail: thumb/media-auto-hash-rename.png
 heading-img: svg/media-auto-hash-rename.svg
 heading-img-local: true
 heading-img-width: 400
