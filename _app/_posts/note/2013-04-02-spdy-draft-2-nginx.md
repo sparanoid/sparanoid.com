@@ -23,7 +23,7 @@ Compile Nginx with SPDY support:
 
 ```sh
 $ cd /tmp/
-$ wget http://nginx.org/download/nginx-1.3.14.tar.gz
+$ wget https://nginx.org/download/nginx-1.3.14.tar.gz
 $ tar zxvf nginx-*.tar.gz
 $ cd nginx-*
 ```
@@ -37,7 +37,7 @@ $ yum install -y patch gcc pcre-devel zlib-devel
 Patch Nginx with SPDY support:
 
 ```sh
-$ wget http://nginx.org/patches/spdy/patch.spdy.txt
+$ wget https://nginx.org/patches/spdy/patch.spdy.txt
 $ patch -p1 < patch.spdy.txt
 ```
 
@@ -45,7 +45,7 @@ Compile Nginx with OpenSSL:
 
 ```sh
 $ cd ..
-$ wget http://www.openssl.org/source/openssl-1.0.1e.tar.gz
+$ wget https://www.openssl.org/source/openssl-1.0.1e.tar.gz
 $ tar zxvf openssl-*.tar.gz
 $ cd nginx-*
 ```

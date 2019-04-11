@@ -2,7 +2,7 @@
 layout: post
 title: 7-Zip Portable
 category: note
-link: http://portableapps.com/apps/utilities/7-zip_portable
+link: https://portableapps.com/apps/utilities/7-zip_portable
 lang: zh-tw
 ---
 

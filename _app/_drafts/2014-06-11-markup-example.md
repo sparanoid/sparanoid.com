@@ -11,9 +11,9 @@ hidden: true
 Lorem lean startup ipsum **product market fit customer development** acquihire technical cofounder. User engagement A/B testing shrink a market venture capital pitch deck. Social bookmarking group buying [crowded market](#) pivot onboarding freemium prototype ping pong. Early stage disruptive ecosystem community outreach dynamic location based strategic investor.
 
 <blockquote>
-  <p>Two days ago the Chinese website <a href="http://www.taobao.com/">Taobao</a> held a discount promotion to celebrate what’s known as “double sticks day” in China. In a single 24hr period, they conducted 19bn RMB (US$3.06bn) of business.</p>
+  <p>Two days ago the Chinese website <a href="https://www.taobao.com/">Taobao</a> held a discount promotion to celebrate what’s known as “double sticks day” in China. In a single 24hr period, they conducted 19bn RMB (US$3.06bn) of business.</p>
   <footer>
-    <cite><a href="http://westiseast.co.uk/blog/taobao-sales-19-billion-bonanza/">Chris West</a></cite>
+    <cite><a href="https://web.archive.org/web/20141208080948/http://westiseast.co.uk/blog/taobao-sales-19-billion-bonanza/">Chris West</a></cite>
   </footer>
 </blockquote>
 
@@ -65,7 +65,7 @@ You have no idea how pretty suss our same same but different toasted sandwiches 
 ```
 
 ## Code Blocks
-Code highlighting demo, powered by Pygments. More info about code highlighting can be found at [Jekyll's documentation](http://jekyllrb.com/docs/templates/#code-snippet-highlighting).
+Code highlighting demo, powered by Pygments. More info about code highlighting can be found at [Jekyll's documentation](https://jekyllrb.com/docs/liquid/tags/#code-snippet-highlighting).
 
 ```ruby
 def show

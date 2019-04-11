@@ -24,7 +24,7 @@ Validate certs against the OCSP server:
 $ openssl ocsp -text -no_nonce -issuer PositiveSSLCA2.crt -CAfile sparanoid_com.crt -cert sparanoid_com.crt -VAfile PositiveSSLCA2.crt -url http://ocsp.comodoca.com -respout /etc/ssl/certs/sparanoid.com_staple
 ```
 
-Add OCSP Stapling support for Nginx, for more infomation you should refer to [Nginx's `ngx_http_ssl_module`](http://nginx.org/en/docs/http/ngx_http_ssl_module.html):
+Add OCSP Stapling support for Nginx, for more infomation you should refer to [Nginx's `ngx_http_ssl_module`](https://nginx.org/en/docs/http/ngx_http_ssl_module.html):
 
 ```nginx
 ssl_stapling            on;

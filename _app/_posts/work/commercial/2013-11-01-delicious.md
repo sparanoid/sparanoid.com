@@ -3,7 +3,7 @@ layout: post
 title: Delicious Redesign
 category: work
 tag: commercial
-link: http://delicious.com/
+link: https://web.archive.org/web/20131214223249/https://delicious.com/
 scheme-text: "#0062c6"
 scheme-link: "#fff"
 scheme-hover: "#00edff"
@@ -12,11 +12,11 @@ scheme-bg: "#39f"
 plugin: lightense
 ---
 
-<p><a href="http://delicious.com/">Delicious</a> (aka. del.icio.us) is a social bookmarking web service for storing, sharing, and discovering web bookmarks that first launched back in 2003. In 2005 it was acquired by Yahoo and later sold to AVOS Systems Inc. The website’s design hasn’t changed very much since its last redesign in 2011.</p>
+<p><a href="https://web.archive.org/web/20131214223249/https://delicious.com/">Delicious</a> (aka. del.icio.us) is a social bookmarking web service for storing, sharing, and discovering web bookmarks that first launched back in 2003. In 2005 it was acquired by Yahoo and later sold to AVOS Systems Inc. The website’s design hasn’t changed very much since its last redesign in 2011.</p>
 
-<p>This year, to celebrate its ten year anniversary, AVOS invited me to join the Delicious team, I do designs and front-end stuff, collaborated with the developer <a href="http://sunng.info/">Ning Sun</a> (<a href="/work/readwise/">again</a>) from AVOS on this project.</p>
+<p>This year, to celebrate its ten year anniversary, AVOS invited me to join the Delicious team, I do designs and front-end stuff, collaborated with the developer <a href="https://sunng.info/">Ning Sun</a> (<a href="/work/readwise/">again</a>) from AVOS on this project.</p>
 
-Update: Delicious now has been acquired by [Science Inc.](http://science-inc.com/) [^1]
+Update: Delicious now has been acquired by [Science Inc.](https://science-inc.com/) [^1]
 
 <h2>Delicious New Logo</h2>
 <p><img src="{{ site.file }}/delicious.com-logo.png" alt="Delicious New Logo"></p>
@@ -36,9 +36,9 @@ Update: Delicious now has been acquired by [Science Inc.](http://science-inc.com
   <li>Delicious logo is made of pure CSS.</li>
   <li>I didn’t write any vendor prefix for this project. (Or let me say: <a href="https://github.com/ai/autoprefixer">Autoprefixer</a> rocks).</li>
   <li>We use Application Cache to speed up the page load times.</li>
-  <li>We use <a href="http://gruntjs.com/">Grunt</a>.</li>
+  <li>We use <a href="https://gruntjs.com/">Grunt</a>.</li>
   <li>I worked remotely (from home) for all these things.</li>
-  <li>The author of <a href="http://www.abookapart.com/products/mobile-first">Mobile First</a>, former Yahoo! design architect, <a href="http://www.lukew.com/">Luke Wroblewski</a> also <a href="https://twitter.com/lukew/status/384744062361686017">tweeted</a> about it.</li>
+  <li>The author of <a href="https://abookapart.com/products/mobile-first">Mobile First</a>, former Yahoo! design architect, <a href="https://www.lukew.com/">Luke Wroblewski</a> also <a href="https://twitter.com/lukew/status/384744062361686017">tweeted</a> about it.</li>
 </ul>
 
 <h2>Delicious Landing Page</h2>
@@ -83,4 +83,4 @@ Update: Delicious now has been acquired by [Science Inc.](http://science-inc.com
 <h2>Delicious - Keyboard Shortcuts</h2>
 <p class="browser"><img src="{{ site.file }}/delicious.com-screenshot-12.png" alt="Delicious - Keyboard Shortcuts"></p>
 
-[^1]: Science Inc., a tech advisory firm run by former Myspace chief Michael Jones, confirmed the deal in a [blog post](http://science-inc.com/about/blog/2014/05/08/welcome-delicious-as-the-cornerstone-asset-of-our-new-data-content-group/).
+[^1]: Science Inc., a tech advisory firm run by former Myspace chief Michael Jones, confirmed the deal in a [blog post](https://web.archive.org/web/20140719033531/http://science-inc.com/about/blog/2014/05/08/welcome-delicious-as-the-cornerstone-asset-of-our-new-data-content-group/).

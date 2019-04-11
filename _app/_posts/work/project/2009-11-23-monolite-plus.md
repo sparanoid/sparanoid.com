@@ -21,7 +21,7 @@ plugin: lightense
 
 <h2>什麽是 MonoLite Plus？</h2>
 
-<p>MonoLite Plus 是一款基于 <a href="http://yuo.be/columns.php">Columns UI</a> 組件創建的 <a href="http://www.foobar2000.org/">foobar2000</a> 皮膚</p>
+<p>MonoLite Plus 是一款基于 <a href="https://yuo.be/columns_ui">Columns UI</a> 組件創建的 <a href="https://www.foobar2000.org/">foobar2000</a> 皮膚</p>
 
 <h2>與原版 MonoLite 有什麽不同？</h2>
 
@@ -76,7 +76,7 @@ plugin: lightense
 <ul>
   <li>首先執行 monolite_lastfm_install.bat 文件，相關組件會自動安裝</li>
   <li>在心形圖標的右鍵菜單處輸入用戶名與 API 密鑰</li>
-  <li>如沒有 API 密鑰則需要從 <a href="http://www.last.fm/api/account">這裏</a> 申請</li>
+  <li>如沒有 API 密鑰則需要從 <a href="https://www.last.fm/api/account">這裏</a> 申請</li>
   <li>運行 foobar2000 並在設置窗口中的 Tools / Audioscrobbler 與 Tools / Soft Playlists 面板中輸入您的帳戶信息</li>
 </ul>
 
@@ -119,17 +119,17 @@ plugin: lightense
 <h2>聲明</h2>
 
 <ul>
-  <li>MonoLite 原作者爲 fanco86 <a href="http://fanco86.deviantart.com/art/MonoLite-122756120">#</a></li>
-  <li>MonoLite Plus 由 Sparanoid 修改 <a href="http://junior-spirit.deviantart.com/art/MonoLite-Plus-144505359/">#</a></li>
+  <li>MonoLite 原作者爲 fanco86 <a href="https://fanco86.deviantart.com/art/MonoLite-122756120">#</a></li>
+  <li>MonoLite Plus 由 Sparanoid 修改 <a href="https://junior-spirit.deviantart.com/art/MonoLite-Plus-144505359/">#</a></li>
   <li>MonoLite Plus 爲 MonoLite 的修改版</li>
-  <li>Last.fm WSH Panel 代碼由 marc2003 編寫 <a href="http://www.hydrogenaudio.org/forums/index.php?showtopic=76772">#</a></li>
-  <li>光盤圖標由 PaulEnsane 制作 <a href="http://paulensane.deviantart.com/art/CD-Icon-115783933">#</a></li>
-  <li>心形圖標由 Tango Desktop Project 制作 <a href="http://tango.freedesktop.org/Tango_Desktop_Project">#</a></li>
-  <li>感歎號圖標由 Yusuke Kamiyamane 制作 <a href="http://www.pinvoke.com/">#</a></li>
-  <li>媒體庫查看方式代碼基于 hydrogenaudio.org 論壇的 2E7AH 修改 <a href="http://www.hydrogenaudio.org/forums/index.php?s=&amp;showtopic=68552&amp;view=findpost&amp;p=684400">#</a></li>
+  <li>Last.fm WSH Panel 代碼由 marc2003 編寫 <a href="https://hydrogenaud.io/index.php/topic,76772.0.html">#</a></li>
+  <li>光盤圖標由 PaulEnsane 制作 <a href="https://paulensane.deviantart.com/art/CD-Icon-115783933">#</a></li>
+  <li>心形圖標由 Tango Desktop Project 制作 <a href="https://web.archive.org/web/20190323120211/http://tango.freedesktop.org/Tango_Desktop_Project">#</a></li>
+  <li>感歎號圖標由 Yusuke Kamiyamane 制作 <a href="http://p.yusukekamiyamane.com/">#</a></li>
+  <li>媒體庫查看方式代碼基于 hydrogenaudio.org 論壇的 2E7AH 修改 <a href="https://hydrogenaud.io/index.php/topic,68552.msg684400.html#msg684400">#</a></li>
 </ul>
 
-<p class="note">該主題基于 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh">署名-非商業性使用-相同方式共享 3.0 發布</a></p>
+<p class="note">該主題基于 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh">署名-非商業性使用-相同方式共享 3.0 發布</a></p>
 
 <p class="download"><a href="{{ site.file }}/download/monolite-plus-043.7z">Download</a> / monolite-plus-043.7z</p>
 <p class="download"><a href="{{ site.file }}/download/monolite-plus-043.7z">Download</a> / monolite-plus-042.7z</p>

@@ -6,7 +6,7 @@ category: note
 
 As we know Amazon CloudFront doesn't support HSTS (HTTP Strict Transport Security) headers. If you tried adding it via CLI or web console, it will be prefixed with `x-amz-`.
 
-But today we're now able to use AWS [Lambda@Edge](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html) to execute functions that customize the content that is delivered through CloudFront.
+But today we're now able to use AWS [Lambda@Edge](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html) to execute functions that customize the content that is delivered through CloudFront.
 
 You can access AWS Lambda via its web console, then create (author) a function from scratch, create a new role from template Basic Edge Lambda permissions, then use the following code:
 
@@ -17,7 +17,7 @@ exports.handler = (event, context, callback) => {
   const headers = response.headers;
 
   headers['strict-transport-security'] = [{
-    key: 'Strict-Transport-Security',   
+    key: 'Strict-Transport-Security',
     value: 'max-age=31536000; includeSubdomains; preload'
   }];
 

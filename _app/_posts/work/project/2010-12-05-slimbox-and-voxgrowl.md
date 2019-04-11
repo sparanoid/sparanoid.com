@@ -15,7 +15,7 @@ scheme-list-color: "text"
 
 <p><a href="https://youtu.be/nSQL7Al-v2U"><img src="{{ site.file }}/slimbox-voxgrowl.png"></a></p>
 
-<p>Yes, These two <a href="http://growl.info/">Growl</a> styles are now updated, I’m fed up with the white one so I change the SlimBox to a dark one in this version. VoxGrowl is used for <a href="http://www.voxapp.uni.cc/">Vox</a> music player for OS X, but it also can be used by any other music player that displays album art. You can have a quick preview here:</p>
+<p>Yes, These two <a href="http://growl.info/">Growl</a> styles are now updated, I’m fed up with the white one so I change the SlimBox to a dark one in this version. VoxGrowl is used for <a href="https://vox.rocks/mac-music-player">Vox</a> music player for OS X, but it also can be used by any other music player that displays album art. You can have a quick preview here:</p>
 
 <p class="download"><a href="{{ site.file }}/download/SlimBox-1.2.dmg">SlimBox-1.2.dmg</a> (70 KB)</p>
 

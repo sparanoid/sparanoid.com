@@ -55,10 +55,10 @@ You can also see if Public Key Pinning is enabled from Web Inspector in Mozilla 
 
 ## HPKP Reporting
 
-At the time of writing, Google Chrome already supports HPKP reporting, so can test it with a report-only header and a fake primary pin, I recommend [RequestBin](http://requestb.in/) for collecting requests:
+At the time of writing, Google Chrome already supports HPKP reporting, so can test it with a report-only header and a fake primary pin, I recommend [Report URI](https://report-uri.com/) or [RequestBin](https://requestbin.com/) for collecting requests:
 
 ```nginx
-add_header Public-Key-Pins-Report-Only 'pin-sha256="FAKE"; pin-sha256="EFGI"; max-age=86400; report-uri="http://requestb.in/onk0wkon"';
+add_header Public-Key-Pins-Report-Only 'pin-sha256="FAKE"; pin-sha256="EFGI"; max-age=86400; report-uri="https://get.report-uri.com/r/d/hpkp/reportOnly"';
 ```
 
 ## `max-age` Best Practice

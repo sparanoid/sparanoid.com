@@ -18,7 +18,7 @@ Amazon S3 + CloudFront means you do not have to buy additional servers to host y
 
 Update Dec 19, 2015: Amazon finally added [Gzip compression support for CloudFront](https://aws.amazon.com/blogs/aws/new-gzip-compression-support-for-amazon-cloudfront/). You can now simply turn on this feature in AWS console or via CLI.
 
-Using Amazon CloudFront with custom origin means you still need servers to store your files. You will have more control with your website, for example, you can use Nginx with complex redirects, your website can be dynamic, and CloudFront works just like a proxy. However, the downside is the cache control which can be tricky. You cannot use invalidation with the existing tools and you have to set separate cache control headers [`s-maxage`](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Expiration.html) for CloudFront.
+Using Amazon CloudFront with custom origin means you still need servers to store your files. You will have more control with your website, for example, you can use Nginx with complex redirects, your website can be dynamic, and CloudFront works just like a proxy. However, the downside is the cache control which can be tricky. You cannot use invalidation with the existing tools and you have to set separate cache control headers [`s-maxage`](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Expiration.html) for CloudFront.
 
 To make things simple, I use Amazon S3 with CloudFront.
 
@@ -91,7 +91,7 @@ Then run `s3_website cfg apply` to update redirects.
 
 ### Redirect www to non-www
 
-You have to create an empty separate S3 bucket and redirect all requests to your root domain. Refer [official documentation](http://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html#root-domain-walkthrough-s3-tasks). This can be set under your bucket properties panel.
+You have to create an empty separate S3 bucket and redirect all requests to your root domain. Refer [official documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html#root-domain-walkthrough-s3-tasks). This can be set under your bucket properties panel.
 
 ### Enable CloudFront
 
@@ -103,7 +103,7 @@ Update: As of Jan 21, 2016, you can now use Amazon CloudFront Integrates with AW
 
 The following is the deprecated IAM method:
 
-Amazon has a [very detailed documentation](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/SecureConnections.html) about using HTTPS with custom SSL certificates and it's hard to get the key points. So here's a brief answer:
+Amazon has a [very detailed documentation](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/SecureConnections.html) about using HTTPS with custom SSL certificates and it's hard to get the key points. So here's a brief answer:
 
 ```bash
 $ aws iam upload-server-certificate --server-certificate-name sparanoid.com --certificate-body file:///path/cert.crt --private-key file:///path/private.key.pem --certificate-chain file:///path/intermediates.chained.crt --path /cloudfront/prod/

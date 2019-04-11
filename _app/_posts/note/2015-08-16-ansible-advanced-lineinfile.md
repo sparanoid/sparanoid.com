@@ -8,7 +8,7 @@ category: note
 
 I was setting up new machines with PHP-FPM support. I'd like to change several FPM parameters using Ansible, you can copy (transfer) the whole configurations from your Ansible task to remote machines via `synchronize` or `template`, it's fast but you can't handle config changes from program updates. So my idea is dynamically replace the parameters I want to change via `lineinfile`:
 
-After googling around, I found [this answer by Ben Whaley](http://stackoverflow.com/a/24345892/412385) fit the bill:
+After googling around, I found [this answer by Ben Whaley](https://stackoverflow.com/a/24345892/412385) fit the bill:
 
 ```yml
 - name: Set some kernel parameters

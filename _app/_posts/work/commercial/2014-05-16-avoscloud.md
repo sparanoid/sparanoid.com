@@ -4,7 +4,7 @@ title: AVOS Cloud
 category: work
 tag: commercial
 thumbnail: thumb/avoscloud-thumb.png
-link: http://avoscloud.com/
+link: https://avoscloud.com/
 heading-img: svg/avoscloud.svg
 heading-img-local: true
 heading-img-width: 458
@@ -18,12 +18,12 @@ scheme-list-color: "code"
 plugin: lightense
 ---
 
-<p><a href="http://avoscloud.com">AVOS Cloud</a>, one of the most famous Chinese local (m)BaaS platform. Me and the whole team have been working on this project since last year. Now it's a spin-off of <a href="http://avos.com/">AVOS Systems, Inc.</a> focuses on tech startups and local companies in China.</p>
+<p><a href="https://avoscloud.com">AVOS Cloud</a>, one of the most famous Chinese local (m)BaaS platform. Me and the whole team have been working on this project since last year. Now it's a spin-off of <a href="https://web.archive.org/web/20131201010958/http://www.avos.com/">AVOS Systems, Inc.</a> focuses on tech startups and local companies in China.</p>
 
 <p>I'm working on this site as a "hybird" designer to create eye-catching interactions and provide easy-to-use dashboard for every developer.</p>
 
 <h2>AVOS Cloud Homepage</h2>
-<p>The background cubes are animated and written in pure CSS, the color schemes of the page can also be changed according to different slices. You can check out <a href="http://codepen.io/sparanoid/pen/axiKF">this pen</a> for a simple 3D cubes demo.</p>
+<p>The background cubes are animated and written in pure CSS, the color schemes of the page can also be changed according to different slices. You can check out <a href="https://codepen.io/sparanoid/pen/axiKF">this pen</a> for a simple 3D cubes demo.</p>
 <p class="browser"><img src="{{ site.file }}/avoscloud-homepage-01-cropped.png" alt="AVOS Cloud Homepage Slides #1"></p>
 <p class="browser"><img src="{{ site.file }}/avoscloud-homepage-02-cropped.png" alt="AVOS Cloud Homepage Slides #2"></p>
 <p class="browser"><img src="{{ site.file }}/avoscloud-homepage-03-cropped.png" alt="AVOS Cloud Homepage Slides #3"></p>

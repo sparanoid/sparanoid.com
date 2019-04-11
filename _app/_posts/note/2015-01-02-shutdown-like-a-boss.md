@@ -2,7 +2,7 @@
 layout: post
 title: Shutdown Like a Boss
 category: note
-link: http://shutdownlikeaboss.com/
+link: https://shutdownlikeaboss.com/
 ---
 
 > This blog will probably teach you how to shutdown your business like a boss. All posts here are copied from predecessors sent to their useless users via emails.

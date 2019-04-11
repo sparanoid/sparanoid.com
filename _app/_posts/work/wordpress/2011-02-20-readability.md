@@ -18,4 +18,4 @@ scheme-hover: "#ff001f"
 
 <p class="download"><a href="https://wordpress.org/extend/plugins/readability-buttons/">Download</a> it at WordPress.org</p>
 
-[^1]: [An Important Announcement](http://blog.readability.com/2012/06/announcement/) by Richard Ziade at Readability
+[^1]: [An Important Announcement](https://web.archive.org/web/20160425094356/https://blog.readability.com/2012/06/announcement/) by Richard Ziade at Readability

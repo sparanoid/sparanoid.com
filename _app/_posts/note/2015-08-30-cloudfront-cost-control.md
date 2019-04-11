@@ -110,7 +110,7 @@ Compared to:
 }
 ```
 
-1 vs 27, and according to the [AWS docs](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html):
+1 vs 27, and according to the [AWS docs](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html):
 
 > The first 1,000 invalidation paths that you submit per month are free; you pay for each invalidation path over 1,000 in a month. An invalidation path can be for a single object (such as `/images/logo.jpg`) or for multiple objects (such as `/images/*`). A path that includes the `*` wildcard counts as one path even if it causes CloudFront to invalidate thousands of objects.
 
