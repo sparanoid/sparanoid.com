@@ -8,7 +8,7 @@
 ## Setup
 
 ```sh
-$ bundle install && npm install && grunt serve
+$ bundle install && yarn && grunt serve
 ```
 
 ## Author
