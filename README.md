@@ -1,7 +1,7 @@
 # Sparanoid
-[![Build Status](https://travis-ci.org/sparanoid/sparanoid.com.svg)](https://travis-ci.org/sparanoid/sparanoid.com)
-[![devDependency Status](https://david-dm.org/sparanoid/sparanoid.com/dev-status.svg)](https://david-dm.org/sparanoid/sparanoid.com#info=devDependencies)
 [![Built with Almace Scaffolding](https://d349cztnlupsuf.cloudfront.net/amsf-badge.svg)](https://sparanoid.com/lab/amsf/)
+[![CircleCI](https://circleci.com/gh/sparanoid/sparanoid.com.svg?style=svg)](https://circleci.com/gh/sparanoid/sparanoid.com)
+[![devDependency Status](https://david-dm.org/sparanoid/sparanoid.com/dev-status.svg)](https://david-dm.org/sparanoid/sparanoid.com#info=devDependencies)
 
 [Almace Scaffolding](https://github.com/sparanoid/almace-scaffolding/) running on [sparanoid.com](https://sparanoid.com/).
 
