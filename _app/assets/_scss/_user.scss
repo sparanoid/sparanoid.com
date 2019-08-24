@@ -31,10 +31,4 @@
   --link-color-l: 45%;
   --text-color-h: var(--link-color-h);
   --bg-color-h: var(--link-color-h);
-
-  @media (prefers-color-scheme: dark) {
-    --text-color-l: 95%;
-    --link-color-l: 70%;
-    --bg-color-l: 5%;
-  }
 }
