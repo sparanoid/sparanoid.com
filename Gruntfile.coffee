@@ -483,6 +483,15 @@ module.exports = (grunt) ->
           {
             expand: true
             dot: true
+            cwd: "<%= amsf.core %>/.circleci/"
+            src: [
+              "config.example.yml"
+            ]
+            dest: ".circleci/"
+          }
+          {
+            expand: true
+            dot: true
             cwd: "<%= amsf.core %>/_app/"
             src: [
               "*.json"
